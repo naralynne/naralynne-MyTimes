@@ -1,15 +1,29 @@
-.container {
+/*Header*/
+
+.header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: thin solid black;
+  padding: 10px;
 }
 
-.left {
+.logo {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
+  color: MediumAquamarine;
 }
 
-.right {
-  display: inline-flex;
+.navigation {
+  display: inline-block;
   align-items: center;
   justify-content: flex-end;
+}
+
+p, a {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 20px;
 }
